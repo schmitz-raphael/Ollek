@@ -1,0 +1,356 @@
+/* Basic styles for layout */
+body, html {
+    font-family: Arial, sans-serif;
+    height: 100%;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+}
+.container {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+}
+.navbar {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 10px 20px;
+    background-color: #333;
+    color: white;
+    position: sticky; /* Make the navbar stick to the top */
+    top: 0; /* Stick it at the top of the page */
+    z-index: 1000; /* Ensure it's on top of other content */
+}
+
+.navbar a {
+    color: white;
+    text-decoration: none;
+    margin: 0 15px;
+}
+
+.navbar .logo {
+    width: 50px;
+    height: 50px;
+    background-color: lightgray;
+    display: inline-block;
+}
+
+.navbar .user-icon {
+    cursor: pointer;
+}
+
+
+/* Book section container styling */
+.book-section {
+    display: flex;
+    flex-direction: column; /* Stack search bar above book cards */
+    gap: 15px;
+    padding-right: 20px;
+    width: 100%;
+}
+
+/* Search Bar styling */
+.search-bar {
+    display: flex;
+    justify-content: flex-start; /* Align search bar to the left */
+    width: 100%;
+    max-width: 400px; /* Limit width */
+    margin-bottom: 20px;
+}
+
+.search-bar input[type="text"] {
+    padding: 8px;
+    flex: 1; /* Let input take most space within max-width */
+    border: 1px solid #ccc;
+    border-radius: 4px 0 0 4px;
+    outline: none;
+}
+
+.search-bar button {
+    padding: 8px;
+    background-color: #007BFF;
+    color: white;
+    border: none;
+    border-radius: 0 4px 4px 0;
+    cursor: pointer;
+}
+
+.search-bar button:hover {
+    background-color: #0056b3;
+}
+
+.book-grid {
+    display: flex;
+    flex-wrap: wrap;  /* Allow books to wrap to the next line */
+    justify-content: space-between;
+    gap: 15px; /* Add space between cards */
+    width: 100%; /* Ensure grid takes up full width */
+    box-sizing: border-box; /* Prevent padding from affecting width calculation */
+}
+
+/* Book card that will automatically adjust its width */
+.book-card {
+    flex: 1 1 200px; /* Flexibility: grow, shrink, and a minimum width of 200px */
+    max-width: 300px; /* Ensure a maximum size */
+    padding: 20px; /* Add more space inside the card */
+    background-color: #f4f4f4;
+    text-align: center;
+    border-radius: 5px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    margin-bottom: 20px; /* Space between rows */
+    cursor: pointer;
+    min-height: 350px; /* Fixed height for the card */
+    display: flex;
+    flex-direction: column; /* Stack image and text vertically */
+    justify-content: space-between; /* Space content evenly */
+}
+
+.book-card img {
+    max-width: 100%;
+    height: auto; /* Ensure the image scales correctly */
+    border-radius: 5px;
+    margin-bottom: 10px; /* Add space between image and title */
+}
+
+.book-card .book-title {
+    margin-top: 10px; /* Add space between image and title */
+    font-size: 18px;
+    font-weight: bold;
+}
+
+.book-card .book-description {
+    font-size: 14px;
+    color: #555;
+}
+
+/* Login modal styling */
+.modal {
+    display: none;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.5);
+    backdrop-filter: blur(2px); /* Blur the background */
+    align-items: center;
+    justify-content: center;
+}
+
+.modal-content {
+    background-color: white;
+    padding: 20px;
+    margin: 15% auto;
+    width: 300px;
+    border-radius: 5px;
+    text-align: center;
+}
+
+body.modal-open {
+    overflow: hidden; /* Prevent background scroll */
+}
+
+.toggle-link {
+    color: blue;
+    cursor: pointer;
+    text-decoration: underline;
+}
+
+.main-content {
+    display: flex;
+    gap: 20px;
+    margin: 20px;
+    width: 100%;
+}
+
+
+
+
+/* Styles for the categories sidebar */
+.categories-sidebar {
+    flex: 0 1 300px; /* Sidebar takes 300px (or adjust to your needs) */
+    padding: 10px;
+    background-color: #f8f8f8;
+    border-left: 1px solid #ddd;
+    max-width: 300px; /* Ensures it doesn't exceed 300px width */
+}
+
+.categories-sidebar h3 {
+    font-size: 18px;
+    margin-bottom: 10px;
+}
+
+.categories-sidebar ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+.categories-sidebar li {
+    margin: 8px 0;
+}
+
+.categories-sidebar a {
+    text-decoration: none;
+    color: #333;
+    font-weight: 500;
+}
+
+.categories-sidebar a:hover {
+    color: #007BFF;
+}
+.book-section {
+    flex: 1;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    gap: 15px; /* Add space between cards */
+    padding-right: 20px;
+    margin-bottom: 20px; /* Add some margin below */
+}
+
+
+/* Modal styling */
+.modal {
+    display: none;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.5);
+    backdrop-filter: blur(2px); /* Blur the background */
+    z-index: 1000;
+    align-items: center;
+    justify-content: center;
+}
+
+.modal-content {
+    background-color: white;
+    padding: 20px;
+    border-radius: 8px;
+    width: 100%;
+    max-width: 400px;
+    text-align: center;
+}
+
+.modal-cover {
+    width: 40%; /* Cover takes 40% of the modal width */
+    height: 100%;
+    object-fit: cover; /* Ensures the image covers the area properly */
+    border-radius: 10px 0 0 10px; /* Rounded corners on the left side */
+  }
+  
+  /* Book details section */
+  .modal-details {
+    padding: 20px;
+    width: 60%; /* Remaining space for book details */
+  }
+  
+  /* Title styling */
+  .modal-title {
+    font-size: 2em;
+    font-weight: bold;
+    margin-bottom: 10px;
+  }
+  
+  /* Author styling */
+  .modal-author {
+    font-size: 1.2em;
+    margin-bottom: 20px;
+    color: gray;
+  }
+  
+  /* Description styling */
+  .modal-description {
+    font-size: 1.1em;
+    margin-bottom: 20px;
+  }
+  
+  /* Price styling */
+  .modal-price {
+    font-size: 1.3em;
+    font-weight: bold;
+    color: green;
+  }
+  .modal-price::after {
+    content: " €"; /* Euro symbol before the price */
+    margin-right: 5px;
+    font-size: 1.0em;
+  }
+  
+  /* Button container styling */
+  .modal-buttons {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 20px;
+  }
+  
+  /* Individual button styling */
+  .modal-button {
+    padding: 10px 20px;
+    font-size: 1em;
+    border: none;
+    background-color: #4CAF50;
+    color: white;
+    cursor: pointer;
+    border-radius: 5px;
+    transition: background-color 0.3s;
+  }
+  
+  /* Hover effect for buttons */
+  .modal-button:hover {
+    background-color: #45a049;
+  }
+.book-card {
+    cursor: pointer;
+}
+@media (max-width: 1024px) {
+    .book-card {
+        flex: 1 1 30%; /* Three books per row */
+    }
+}
+
+@media (max-width: 768px) {
+    .book-card {
+        flex: 1 1 45%; /* Two books per row */
+    }
+}
+
+@media (max-width: 480px) {
+    .book-card {
+        flex: 1 1 90%; /* One book per row on smaller screens */
+    }
+}
+
+
+/* Footer styling */
+.footer {
+    position: sticky;
+    bottom: 0;
+    align-self: flex-end;
+    background-color: #333;
+    color: #fff;
+    padding: 20px 0;
+    text-align: center;
+    width: 100%;
+    position: relative;
+    
+}
+
+/* Footer links */
+.footer-links {
+    margin: 10px 0;
+}
+
+.footer-links a {
+    color: #fff;
+    margin: 0 10px;
+    text-decoration: none;
+    font-weight: 500;
+}
+
+.footer-links a:hover {
+    color: #007BFF;
+}

@@ -1,0 +1,48 @@
+.navbar {
+    display: flex;
+    align-items: center;
+    justify-content: space-between; /* Space between logo, links, and buttons */
+    padding: 10px 20px;
+    background-color: #333;
+    color: white;
+    position: sticky; /* Make the navbar stick to the top */
+    top: 0;
+    z-index: 1000;
+  }
+  
+  .navbar .logo {
+    width: 80px;  /* Increase the size */
+    height: 80px; /* Increase the size */
+    object-fit: contain;  /* Maintain aspect ratio */
+  }
+  
+  
+  .navbar a {
+    color: white;
+    text-decoration: none;
+    margin: 0 15px;
+    font-size: 18px;
+  }
+  
+  .navbar a:hover {
+    text-decoration: underline;
+  }
+  
+  .navbar .user-icon,
+  .navbar .logout-button {
+    font-size: 16px;
+    background: none;
+    border: none;
+    cursor: pointer;
+    color: white;
+  }
+  
+  .navbar .logout-button:hover {
+    color: #ff6b6b; /* Highlight the logout button on hover */
+  }
+  
+  .navbar div:last-child {
+    display: flex;
+    align-items: center;
+  }
+  
