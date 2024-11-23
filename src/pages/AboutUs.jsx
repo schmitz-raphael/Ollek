@@ -29,32 +29,32 @@ function AboutUs() {
         <h2>Meet the Team</h2>
         <div className="team-cards-container">
           <div className="team-card">
-            <img src="/team/raphael.png" alt="Placeholder" className="team-member-img" />
+            <img src="./team/raphael.png" alt="Placeholder" className="team-member-img" />
             <h3>Raphael Schmitz</h3>
             <p>The lazy guy that manages the other lazy guys</p>
           </div>
           <div className="team-card">
-            <img src="/team/felix.jpg" alt="Placeholder" className="team-member-img" />
+            <img src="./team/felix.jpg" alt="Placeholder" className="team-member-img" />
             <h3>Felix Welter</h3>
             <p>The lazy guy, that develops and breaks stuff</p>
           </div>
           <div className="team-card">
-            <img src="/team/ken.png" alt="Placeholder" className="team-member-img" />
+            <img src="/Ollek/team/ken.png" alt="Placeholder" className="team-member-img" />
             <h3>Ken Theis</h3>
             <p>The lazy guy, that's supporting Felix (mostly on an emotional level)</p>
           </div>
           <div className="team-card">
-            <img src="/team/andrei.png" alt="Placeholder" className="team-member-img" />
+            <img src="./team/andrei.png" alt="Placeholder" className="team-member-img" />
             <h3>Andrei Grigore</h3>
             <p>The lazy guy, that's also Romanian and analyzes the business</p>
           </div>
           <div className="team-card">
-            <img src="/team/sadin.jpg" alt="Placeholder" className="team-member-img" />
+            <img src="./team/sadin.png" alt="Placeholder" className="team-member-img" />
             <h3>Sadin Avdusinovic</h3>
             <p>The lazy guy, that's also analyzing the business and doing most of the other stuff actually</p>
           </div>
           <div className="team-card">
-            <img src="/team/kim.png" alt="Placeholder" className="team-member-img" />
+            <img src="./team/kim.png" alt="Placeholder" className="team-member-img" />
             <h3>Kim Meyers</h3>
             <p>The lazy guy, that's managing our data</p>
           </div>
