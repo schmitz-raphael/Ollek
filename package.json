@@ -1,16 +1,16 @@
 {
   "name": "ollek",
   "private": true,
-  "homepage": "https://schmitz-raphael.github.io/Ollek",
   "version": "0.0.0",
   "type": "module",
+  "homepage": "https://schmitz-raphael.github.io/Ollek",
   "scripts": {
-    "predeploy": "npm run build",
-    "deploy": "gh-pages -d dist",
     "dev": "vite",
     "build": "vite build",
     "lint": "eslint .",
-    "preview": "vite preview"
+    "preview": "vite preview",
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d dist"
   },
   "dependencies": {
     "ollek": "file:",
