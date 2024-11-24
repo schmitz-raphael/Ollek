@@ -1,6 +1,6 @@
 import React, { useState } from "react";
 import { useNavigate } from "react-router-dom";
-import "../style/Login.css"; // Import the CSS file
+import "../style/Login.css"; // Optional if you have a CSS file for styling
 
 function Login({ setIsLoggedIn }) {
   const [username, setUsername] = useState("");
@@ -20,27 +20,40 @@ function Login({ setIsLoggedIn }) {
 
   return (
     <div className="login-container">
-      <div className="login-form">
-        <h1>Login</h1>
-        <form onSubmit={handleSubmit}>
-          <input
-            type="text"
-            placeholder="Username"
-            value={username}
-            onChange={(e) => setUsername(e.target.value)}
-            required
-          />
-          <input
-            type="password"
-            placeholder="Password"
-            value={password}
-            onChange={(e) => setPassword(e.target.value)}
-            required
-          />
-          <button type="submit">Login</button>
-          <button type="button">Register</button>
-        </form>
-      </div>
+      <h1>Login</h1>
+      <form onSubmit={handleSubmit}>
+        <input
+          type="text"
+          placeholder="Username"
+          value={username}
+          onChange={(e) => setUsername(e.target.value)}
+          required
+        />
+        <br />
+        <input
+          type="password"
+          placeholder="Password"
+          value={password}
+          onChange={(e) => setPassword(e.target.value)}
+          required
+        />
+        <br />
+        <button type="submit">Login</button>
+      </form>
+      <button
+        onClick={() => navigate("/register")}
+        style={{
+          marginTop: "10px",
+          padding: "10px",
+          backgroundColor: "#007bff",
+          color: "white",
+          border: "none",
+          borderRadius: "5px",
+          cursor: "pointer",
+        }}
+      >
+        Register
+      </button>
     </div>
   );
 }

@@ -1,0 +1,58 @@
+/* General styling for the book card container */
+.book-card {
+    background-color: #ffffff; /* White background for the card */
+    border: 1px solid #ddd; /* Light border */
+    border-radius: 8px; /* Rounded corners */
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* Subtle shadow for depth */
+    padding: 15px; /* Padding inside the card */
+    text-align: center; /* Center-align text */
+    transition: transform 0.2s ease, box-shadow 0.2s ease; /* Smooth hover effect */
+  }
+  
+  /* Hover effect for the card */
+  .book-card:hover {
+    transform: scale(1.05); /* Slightly enlarge on hover */
+    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.15); /* Enhance shadow on hover */
+    cursor: pointer; /* Pointer cursor to indicate clickability */
+  }
+  
+  /* Styling for the book cover image */
+  .book-card img {
+    width: 100%; /* Take full width of the card */
+    height: 300px; /* Fixed height for consistency */
+    object-fit: cover; /* Ensure the image fits well */
+    border-radius: 5px; /* Round corners of the image */
+    margin-bottom: 15px; /* Space below the image */
+  }
+  
+  /* Title of the book */
+  .book-card h2 {
+    font-size: 18px; /* Medium-sized font for title */
+    color: #333; /* Dark text color */
+    margin: 10px 0; /* Space above and below the title */
+    line-height: 1.4; /* Improve readability */
+  }
+  
+  /* Author's name */
+  .book-card h4 {
+    font-size: 16px; /* Slightly smaller font than title */
+    color: #555; /* Gray text for author */
+    margin: 5px 0 15px; /* Adjust spacing */
+    font-style: italic; /* Italicize author name for distinction */
+  }
+  
+  /* Description of the book */
+  .book-card p {
+    font-size: 14px; /* Smaller font for description */
+    color: #777; /* Light gray for secondary text */
+    line-height: 1.6; /* Increase line height for readability */
+    margin: 0 0 10px; /* Space below the description */
+  }
+  
+  /* Price styling */
+  .book-card h4.price {
+    font-size: 16px;
+    color: #333;
+    font-weight: bold;
+  }
+  
