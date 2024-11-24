@@ -1,0 +1,147 @@
+[
+    {
+      "id": 1,
+      "title": "Harry Potter and the Philosopher's Stone",
+      "description": "A magical story of a young wizard.",
+      "author": "J.K. Rowling",
+      "price": 9.99,
+      "cover": "./covers/HarryPotter1.jpg"
+    },
+    {
+      "id": 2,
+      "title": "Harry Potter and the Chamber of Secrets",
+      "description": "A tale of a magical journey with new challenges.",
+      "author": "J.K. Rowling",
+      "price": 10.99,
+      "cover": "./covers/HarryPotter2.jpg"
+    },
+    {
+      "id": 3,
+      "title": "Harry Potter and the Prisoner of Azkaban",
+      "description": "Harry returns to Hogwarts to discover dangerous secrets.",
+      "author": "J.K. Rowling",
+      "price": 11.99,
+      "cover": "./covers/HarryPotter3.jpg"
+    },
+    {
+      "id": 4,
+      "title": "Harry Potter and the Goblet of Fire",
+      "description": "A deadly tournament tests the young wizard.",
+      "author": "J.K. Rowling",
+      "price": 12.99,
+      "cover": "./covers/HarryPotter4.jpg"
+    },
+    {
+      "id": 5,
+      "title": "Harry Potter and the Order of the Phoenix",
+      "description": "Harry faces new threats as he leads a resistance at Hogwarts.",
+      "author": "J.K. Rowling",
+      "price": 13.99,
+      "cover": "./covers/HarryPotter5.jpg"
+    },
+    {
+      "id": 6,
+      "title": "Harry Potter and the Half-Blood Prince",
+      "description": "Secrets of Voldemort are revealed as war looms.",
+      "author": "J.K. Rowling",
+      "price": 14.99,
+      "cover": "./covers/HarryPotter6.jpg"
+    },
+    {
+      "id": 7,
+      "title": "Harry Potter and the Deathly Hallows",
+      "description": "Harry must face his ultimate enemy in the final battle.",
+      "author": "J.K. Rowling",
+      "price": 15.99,
+      "cover": "./covers/HarryPotter7.jpg"
+    },
+    {
+      "id": 8,
+      "title": "The Phantom of the Library",
+      "description": "A mysterious librarian with dark secrets.",
+      "author": "John Doe",
+      "price": 5.99,
+      "cover": "./covers/placeholder1.jpg"
+    },
+    {
+      "id": 9,
+      "title": "The Secret of the Shadows",
+      "description": "A thrilling adventure in a world of mystery.",
+      "author": "Jane Doe",
+      "price": 6.99,
+      "cover": "./covers/placeholder2.jpg"
+    },
+    {
+      "id": 10,
+      "title": "Whispers in the Night",
+      "description": "A chilling tale of the supernatural.",
+      "author": "Max Power",
+      "price": 7.99,
+      "cover": "./covers/placeholder3.jpg"
+    },
+    {
+      "id": 11,
+      "title": "Journey to the Unknown",
+      "description": "A perilous adventure to an unknown land.",
+      "author": "Sarah Connor",
+      "price": 8.99,
+      "cover": "./covers/placeholder4.jpg"
+    },
+    {
+      "id": 12,
+      "title": "The Enchanted Forest",
+      "description": "A magical adventure set in a mystical forest.",
+      "author": "Chris Evans",
+      "price": 9.49,
+      "cover": "./covers/placeholder5.jpg"
+    },
+    {
+      "id": 13,
+      "title": "Beyond the Horizon",
+      "description": "A story of exploration and self-discovery.",
+      "author": "Amanda Lee",
+      "price": 10.49,
+      "cover": "./covers/placeholder6.jpg"
+    },
+    {
+      "id": 14,
+      "title": "The Lost Kingdom",
+      "description": "A quest to find a kingdom lost to time.",
+      "author": "Mark Smith",
+      "price": 11.49,
+      "cover": "./covers/placeholder7.jpg"
+    },
+    {
+      "id": 15,
+      "title": "Tales of the Sea",
+      "description": "A seafaring adventure with pirates and treasures.",
+      "author": "Emily White",
+      "price": 12.49,
+      "cover": "./covers/placeholder8.jpg"
+    },
+    {
+      "id": 16,
+      "title": "The Dragon's Quest",
+      "description": "A hero must tame a dragon to save the realm.",
+      "author": "David Black",
+      "price": 13.99,
+      "cover": "./covers/placeholder9.jpg"
+    },
+    {
+      "id": 17,
+      "title": "Wizards and Witches",
+      "description": "A magical world where wizards battle for supremacy.",
+      "author": "Elena Green",
+      "price": 14.49,
+      "cover": "./covers/placeholder10.jpg"
+    },
+    {
+      "id": 18,
+      "title": "Secrets of the Ancient World",
+      "description": "A journey to uncover the mysteries of the past.",
+      "author": "Nathan Blue",
+      "price": 15.49,
+      "cover": "./covers/placeholder11.jpg"
+    }
+  ]
+  
